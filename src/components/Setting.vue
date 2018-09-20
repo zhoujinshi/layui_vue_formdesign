@@ -1,5 +1,6 @@
 <template>
   <div class="layui-row">
+    <br>
     <form class="layui-form" action="">
       <div class="layui-form-item">
         <label class="layui-form-label">输入框</label>
@@ -10,7 +11,8 @@
       <div class="layui-form-item">
         <label class="layui-form-label">密码框</label>
         <div class="layui-input-inline">
-          <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+          <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off"
+            class="layui-input">
         </div>
         <div class="layui-form-mid layui-word-aux">辅助文字</div>
       </div>
@@ -18,13 +20,13 @@
         <label class="layui-form-label">选择框</label>
         <div class="layui-input-block">
           <select name="city" lay-verify="required">
-                <option value=""></option>
-                <option value="0">北京</option>
-                <option value="1">上海</option>
-                <option value="2">广州</option>
-                <option value="3">深圳</option>
-                <option value="4">杭州</option>
-              </select>
+            <option value=""></option>
+            <option value="0">北京</option>
+            <option value="1">上海</option>
+            <option value="2">广州</option>
+            <option value="3">深圳</option>
+            <option value="4">杭州</option>
+          </select>
         </div>
       </div>
       <div class="layui-form-item">
@@ -88,4 +90,5 @@ export default {
     })
   }
 }
+
 </script>
