@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/Main'
-import Setting from '@/components/Setting'
+import InputSet from '@/components/InputSet'
+import LayoutSet from '@/components/LayoutSet'
 
 Vue.use(Router)
 
@@ -13,9 +14,14 @@ export default new Router({
       component: Main
     },
     {
-      path: '/setting',
-      name: 'Setting',
-      component: Setting
+      path: '/inputSet',
+      name: 'InputSet',
+      component: InputSet
+    },
+    {
+      path: '/layoutSet',
+      name: 'LayoutSet',
+      component: LayoutSet
     }
   ]
 })

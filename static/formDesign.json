@@ -1,0 +1,140 @@
+{
+  "res": 1,
+  "msg": "操作成功",
+  "items": [{
+      "row": 1,
+      "item": [{
+        "label": "标题",
+        "name": "title",
+        "type": "text",
+        "verify": "required",
+        "placeholder": "请输入标题"
+      }]
+    },
+    {
+      "row": 2,
+      "item": [{
+        "label": "输入框",
+        "name": "input",
+        "type": "text",
+        "verify": "required",
+        "placeholder": "请输入标题2"
+      }, {
+        "label": "日期",
+        "name": "date1",
+        "type": "date",
+        "verify": "required",
+        "datetype": "date",
+        "format": "yyyy-MM-dd"
+      }]
+    }, {
+      "row": 2,
+      "item": [{
+        "label": "选项卡",
+        "name": "select",
+        "type": "select",
+        "verify": "required",
+        "placeholder": "请输入标题1",
+        "option": [{
+          "text": "長沙",
+          "value": "1"
+        }, {
+          "text": "北京",
+          "value": "2"
+        }, {
+          "text": "天津",
+          "value": "3"
+        }, {
+          "text": "上海",
+          "value": "4"
+        }, {
+          "text": "重慶",
+          "value": "5"
+        }]
+      }]
+    }, {
+      "row": 1,
+      "item": [{
+        "label": "复选框",
+        "name": "title",
+        "type": "checkbox",
+        "verify": "required",
+        "placeholder": "请输入标题1",
+        "option": [{
+          "text": "長沙",
+          "name": "checkbox1"
+        }, {
+          "text": "北京",
+          "name": "checkbox2"
+        }, {
+          "text": "天津",
+          "name": "checkbox3"
+        }, {
+          "text": "上海",
+          "name": "checkbox4"
+        }, {
+          "text": "重慶",
+          "name": "checkbox5"
+        }]
+      }]
+    }, {
+      "row": 2,
+      "item": [{
+        "label": "时分",
+        "name": "date2",
+        "type": "date",
+        "verify": "required",
+        "datetype": "time",
+        "format": "HH:mm:ss"
+      }]
+    }, {
+      "row": 2,
+      "item": [{
+        "label": "月份",
+        "name": "date3",
+        "type": "date",
+        "verify": "required",
+        "datetype": "month",
+        "format": "yyyy-MM"
+      }]
+    }, {
+      "row": 1,
+      "item": [{
+        "label": "开关",
+        "name": "switch",
+        "type": "switch",
+        "verify": "required",
+        "placeholder": "请输入标题3"
+      }]
+    }, {
+      "row": 1,
+      "item": [{
+        "label": "单选",
+        "name": "sex",
+        "type": "radio",
+        "verify": "required",
+        "placeholder": "请输入标题1",
+        "option": [{
+          "text": "男",
+          "value": "1"
+        }, {
+          "text": "女",
+          "value": "2"
+        }, {
+          "text": "保密",
+          "value": "3"
+        }]
+      }]
+    }, {
+      "row": 1,
+      "item": [{
+        "label": "备注",
+        "name": "desc",
+        "type": "textarea",
+        "verify": "required",
+        "placeholder": "请输入标题3"
+      }]
+    }
+  ],
+  "total": "2"
+}
